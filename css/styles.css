@@ -5,3 +5,8 @@
 #row1{
     text-align: center;
 }
+#NavArea{
+    background-color: lightgreen;
+    width: 150px;
+    height: 550px;
+}
