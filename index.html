@@ -3,8 +3,8 @@
 
 <head>
     <title>Ping Pong</title>
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
         crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
@@ -26,24 +26,28 @@
             <h5>Ephantus karanja</h5>
             <h4>Github username/url:</h4>
             <h5>ephantuskaranja</h5>
-            <h4>Level 2  Test for:</h4>
+            <h4>Level 2 Test for:</h4>
             <h5>Javacript</h5>
         </div>
-        <div class="col-md-8" id="rules">
+        <div class="col-md-8">
             <!--let's play-->
-            <h2>Let's play!</h2>
-            <h3>Rules:</h3>
-            <p>Ping Pong will count up to your number from one with the following exceptions:</p>
-            <ol>
-                <li>numbers divisible by 3 become 'ping'</li>
-                <li>numbers divisible by 5 become 'pong'</li>
-                <li>numbers divisible by 3 and 5 become 'pingpong'</li>
-            </ol>
+            <div id="rules">
+                <h2>Let's play!</h2>
+                <h3>Rules:</h3>
+                <p>Ping Pong will count up to your number from one with the following exceptions:</p>
+                <ol>
+                    <li>numbers divisible by 3 become 'ping'</li>
+                    <li>numbers divisible by 5 become 'pong'</li>
+                    <li>numbers divisible by 3 and 5 become 'pingpong'</li>
+                </ol>
+            </div>
             <form id="form">
                 <div class="form-group">
-                    <label for="number">Enter your number here:</label>
-                    <input id="number" class="form-control" type="number">
-                    <button type="submit" class="btn">Ping pong!</button>
+                    <div>
+                        <label for="number">Enter your number here:</label>
+                        <input id="number" type="number" name="your number" value="Enter Your number here">
+                        <button type="submit" class="btn">Ping pong!</button>
+                    </div>
                 </div>
             </form>
         </div>
