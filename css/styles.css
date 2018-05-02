@@ -1,6 +1,7 @@
 #empty{
     height: 20px;
     background-color: lightgrey;
+    padding: 4px;
 }
 #row1{
     text-align: center;
@@ -9,7 +10,7 @@
     background-color: lightgreen;
     width: 250px;
     height: 550px;
-    padding: 30px;
+    
 }
 #rules{
     text-align: left;
@@ -20,5 +21,7 @@
 #play{
     background-color: lightgrey;
     height: 550px;
-    width: 1000px;
+}
+body{
+    border-style: solid;
 }
