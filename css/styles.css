@@ -17,3 +17,8 @@
 #form{
     text-align: left;
 }
+#play{
+    background-color: lightgrey;
+    height: 550px;
+    width: 1000px;
+}
