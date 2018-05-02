@@ -22,7 +22,7 @@
         <div class="col-md-4" id="NavArea">
             <!--side nav area-->
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8" id="rules">
             <!--let's play-->
             <h2>Let's play!</h2>
             <h3>Rules:</h3>
@@ -32,14 +32,14 @@
                 <li>numbers divisible by 5 become 'pong'</li>
                 <li>numbers divisible by 3 and 5 become 'pingpong'</li>
             </ol>
+            <form id="form">
+                <div class="form-group">
+                    <label for="number">Enter your number here:</label>
+                    <input id="number" class="form-control" type="number">
+                    <button type="submit" class="btn">Ping pong!</button>
+                </div>
+            </form>
         </div>
-        <form>
-            <div class="form-group">
-                <label for="number">Enter your number here:</label>
-                <input id="number" class="form-control" type="number">
-                <button type="submit" class="btn">Ping pong!</button>
-            </div>
-        </form>
     </div>
 
 </body>
