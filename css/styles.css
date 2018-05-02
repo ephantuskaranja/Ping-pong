@@ -7,8 +7,9 @@
 }
 #NavArea{
     background-color: lightgreen;
-    width: 150px;
+    width: 250px;
     height: 550px;
+    padding: 30px;
 }
 #rules{
     text-align: left;
