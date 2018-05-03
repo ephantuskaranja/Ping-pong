@@ -6,6 +6,9 @@ $(document).ready(function () {
 
         //display results
         $(".output").text(num);
-        $("#results").show();
+        for(var i = 1; i <= num; i++){
+           //$("#results").show();
+           document.writeln(i);
+        } 
     });
 });
