@@ -8,7 +8,7 @@
 }
 #NavArea{
     background-color: lightgreen;
-    width: 250px;
+    width: 200px;
     height: 550px;
     
 }
@@ -21,6 +21,7 @@
 #play{
     background-color: lightgrey;
     height: 550px;
+    width: 1078px;
 }
 body{
     border-style: solid;
