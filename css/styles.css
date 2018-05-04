@@ -10,7 +10,7 @@
 #NavArea{
     background-color: lightgreen;
     width: 200px;
-    height: 550px;
+    /*height: 550px;*/
     
 }
 #rules{
@@ -21,7 +21,7 @@
 }
 #play{
     background-color: lightgrey;
-    height: 550px;
+    /*height: 550px;*/
     width: 1078px;
 }
 body{
