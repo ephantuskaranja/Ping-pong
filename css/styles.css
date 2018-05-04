@@ -8,10 +8,7 @@
     background-color: #d2b48c;
 }
 #NavArea{
-    background-color: lightgreen;
-    width: 200px;
-    /*height: 550px;*/
-    
+    background-color: lightgreen;  
 }
 #rules{
     text-align: left;
@@ -21,8 +18,6 @@
 }
 #play{
     background-color: lightgrey;
-    /*height: 550px;*/
-    width: 1078px;
 }
 body{
     border-style: solid;
