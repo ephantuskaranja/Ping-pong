@@ -1,14 +1,13 @@
-#empty{
-    height: 20px;
-    background-color: lightgrey;
-    padding: 4px;
-}
+
 #row1{
     text-align: center;
-    background-color: #d2b48c;
+    background-color: teal;
+    color: coral;
 }
 #NavArea{
-    background-color: lightgreen;  
+    background-color: teal; 
+    padding-right: 50px;
+    color: white; 
 }
 #rules{
     text-align: left;
@@ -17,8 +16,17 @@
     text-align: left;
 }
 #play{
-    background-color: lightgrey;
+    background-color: teal;
+    color: white;
+    border-style: groove;
 }
 body{
-    border-style: solid;
+    background-image: url(../38218494-solid-wallpaper.jpg);
+}
+#ping{
+    background-color: beige;
+    color: blue;
+}
+#output{
+    color: orange;
 }
