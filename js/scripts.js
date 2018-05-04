@@ -1,11 +1,9 @@
 var num;
 //Business logic
 function ping() {
-    $("#output").text("");
     for (var i = 1; i <= num; i++) {
         if (i % 15 == 0) {
             $("#output").append('<li>pingpong</li>');
-            alert(num);
         }
         else if (i % 5 == 0) {
             $("#output").append("<li>Pong</li>");
@@ -23,7 +21,7 @@ $(document).ready(function () {
     $("form#form").submit(function (event) {
         event.preventDefault();
         num = parseInt($("input#number").val());
-        // alert(num);
+        $("#output").text("");
         ping();
         $("#output").show();
     });
