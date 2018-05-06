@@ -7,7 +7,6 @@
 #NavArea{
     background-color: teal; 
     padding-right: 50px;
-    color: white; 
 }
 #rules{
     text-align: left;
@@ -29,4 +28,19 @@ body{
 }
 #output{
     color: orange;
+}
+#number{
+    color: black;
+}
+#h1{
+    color: coral;
+}
+#wh{
+    color: white;
+}
+#h2{
+    color: coral;
+}
+#bl{
+    color: black;
 }
