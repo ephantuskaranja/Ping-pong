@@ -14,6 +14,8 @@ The site contains a form where the user enters input. The input is evaluated and
 
 ## Setup/Installation Requirements
 * The page can be opened using browsers such as mozilla firefox and google chrome for optimum views and results.
+##Live Site Link
+    [https://ephantuskaranja.github.io/Ping-pong/]
 
 ## Known Bugs
 Upto the time of release, no bugs have been noticed.
