@@ -12,7 +12,7 @@ function ping() {
             $("#output").append("<li>Ping</li>");
         }
         else {
-            $('#output').append('<li>' + i.toString() + '</li>');
+            $('#output').append('<li>' + i + '</li>');
         }
     }
 };
