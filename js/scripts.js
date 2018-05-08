@@ -17,8 +17,8 @@ function ping() {
     }
 };
 //User Interface
-$(document).ready(function () {
-    $("form#form").submit(function (event) {
+$(function () {
+    $("#form").submit(function (event) {
         event.preventDefault();
         num = parseInt($("input#number").val());
         $("#output").text("");
