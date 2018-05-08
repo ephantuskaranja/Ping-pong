@@ -21,7 +21,7 @@ $(function () {
     $("#form").submit(function (event) {
         event.preventDefault();
         num = parseInt($("input#number").val());
-        $("#output").text("");
+        //$("#output").text("");
         ping();
         $("#output").show();
     });
